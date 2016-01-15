@@ -1,0 +1,34 @@
+{
+  "name": "threeeditor-express",
+  "readmeFilename": "README.md",
+  "version": "0.0.1",
+  "description": "serve three.js editor locally with express",
+  "author": "Chris <chris@bumblehead.com>",
+  "license" : "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/threeeditor-express.git"
+  },
+  "keywords": [
+    "three.js",
+    "threejs",
+    "editor"
+  ],
+  "dependencies" : {
+    "express-winston" : "~0.4.x",
+    "winston" : ">=0.6.2",
+    "express" : "~4.13.x",
+    "morgan" : "1.5.1",
+    "compression" : "1.4.1",
+    "body-parser" : "1.12.0",
+    "serve-index" : "1.6.1",
+    "errorhandler" : "1.3.3",
+    "cookie-parser" : "1.3.4",
+    "serve-favicon" : "2.2.0",
+    "method-override" : "2.3.1",
+    "three.js" : "git://github.com/mrdoob/three.js.git"
+  },
+  "scripts" : {
+    "start" : "node index.js"
+  }
+}

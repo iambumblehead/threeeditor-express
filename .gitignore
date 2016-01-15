@@ -1,0 +1,6 @@
+node_modules
+.DS_Store
+README.html
+log_err.log
+log_req.log
+npm-debug.log
